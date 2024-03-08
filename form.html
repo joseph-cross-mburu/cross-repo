@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>transport schedule</h3>
+    <hr>
+    <form style="background-color: black;color: red;font-style: italic;" action="action-page.php" method="post">
+        <div>
+        <label for="fname">first name</label>
+        <input type="text" id="fname" name="fname" required>
+        </div>
+        <br>
+        <div>
+            <label for="lname">last name</label>
+            <input type="text" id="lname" name="lname" required>
+        </div>
+        <br>
+        <div>
+            <label for="location">from</label>
+            <input type="text" id="location" name="location" required>
+        </div>
+        <br>
+        <div>
+            <label for="destination">to</label>
+            <input id="destination" name="destination" required>
+        </div>
+        <br>
+        <div>
+            <label for="cell number">phone number</label>
+            <input type="number" id="cell number" name="cell number"  min="0" required>
+        </div>
+        <br>
+        <div>
+            <label for="id num">id number</label>
+            <input type="number" id="id num" name="id num">
+        </div>
+        <br>
+        <div>
+            <lable for="class">choose class</lable>
+            <select id="class" name="class" required>
+                <option value="ordinary">odinary</option>
+                <option value="first class">first class</option>
+            </select>
+                   
+        </div>
+        <br>
+        <div required>
+            <lable for="seat" >choose seat </lable>
+            <br>
+            <label for="s1">s1</label>
+            <input type="radio" id="s1" name="s1">
+            <label for="s2">s2</label>
+            <input type="radio" id="s2" name="s2">
+            <label for="s3">s3</label>
+            <input type="radio" id="s3" name="s3">
+            <label for="s4">s4</label>
+            <input type="radio" id="s4" name="s4">
+            <label for="s5">s5</label>
+            <input type="radio" id="s5" name="s5">
+            <label for="s5">s5</label>
+            <input type="radio" id="s5" name="s5">
+            <label for="s6">s6</label>am 
+            <input type="radio" id="s6" name="s6">
+            <label for="s7">s7</label>
+            <input type="radio" id="s7" name="s7">
+            <label for="s8">s8</label>
+            <input type="radio" id="s8" name="s8">
+            <label for="s9">s9</label>
+            <input type="radio" id="s9" name="s9">
+        </div>
+        <br>
+        <div>
+            <label for="pay">payment method</label>
+            <select id="pay" name="pay" required>
+                <option value="mpesa">mpesa</option>
+                <option value="bank">bank</option>
+                <option value="mastercard">mastercard</option>
+            </select>
+        </div>   
+            <br>
+            <label for="health">health issues</label>
+            <input type="checkbox" id="health" name="health" required>
+            <br>
+            <br>
+            <div>
+                <input type="submit">
+            </div>
+            <br>
+            <div>
+                <input type="reset">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
